@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | </title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700,900' rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
+<!--WARNING: Respond.js doesn't work if you view the page with file://-->
+
+<!--[If It IE9]>
+    <script src="https://ossmaxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+    </script>
+    <script src="https://ossmaxcdn.com/respond/1.4.2/respond.min.js">
+    </script>
+<![endif]-->
+</head>
+    <body>
+        <!--<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">La Mesa Top Chef</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>-->
+
+<!--<div class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1>Restaurant Name</h1>
+            </div>
+            <div class="col-lg-9 right">
+                <div class="main-nav pull-right">
+                    <ul class="list-inline">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="divider"></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li class="divider"></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="divider"></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#reservation-modal">Reservations</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+<nav class="navbar navbar-expand-sm" id="padds"></nav>
+<div class="nav-header">
+    <nav class="navbar navbar-expand-sm">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="/index">
+            La Mesa Top Chef Fantasy
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- Links -->
+            <div class="btn-group">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="/index">Standings</a>
+                        <!--<button type="button" class="btn btn-dark nav-link" href="/index"><a class="dark-bg-link" href="/index">Standings</a></button></a>-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/teams">Teams</a>
+                        <!--<a class="nav-link" href="/teams"><button type="button" class="btn btn-dark nav-link" href="/index"><a class="dark-bg-link" href="/teams">Teams</a></button>-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/rules">Scoring</a>
+                        <!--<a class="nav-link" href="/teams"><button type="button" class="btn btn-dark nav-link" href="/index"><a class="dark-bg-link" href="/teams">Teams</a></button>-->
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</div>
+  
+
+        <div class="container">
+    <h1>Standings</h1>
+</div>
+<div class="container" class="standings-table" id="standings-table" onload="sortTable()">
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th class="align-middle" rowspan="2">Team</th>
+                <th class="align-middle" rowspan="2">Points</th>
+                <th class="align-middle" colspan="3">Contestants Left</th>
+            </tr>
+            <tr>
+                <th width="180px">Active</th>
+                <th width="180px">Last Chance Kitchen</th>
+                <th width="180px">Eliminated</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="centered">
+                <td>
+                Kurt
+                </td>
+                <td id="team-points">
+                    3
+                </td>
+                <td> 
+                    2
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr class="centered">
+                <td>
+                Joe
+                </td>
+                <td id="team-points">
+                    2
+                </td>
+                <td> 
+                    2
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr class="centered">
+                <td>
+                    Linda
+                </td>
+                <td id="team-points">
+                    2
+                </td>
+                <td> 
+                    2
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr class="centered">
+                <td>
+                    Randee
+                </td>
+                <td id="team-points">
+                    2
+                </td>
+                <td> 
+                    2
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr class="centered">
+                <td id="team-points">
+                    Amy
+                </td>
+                <td class="table-success">
+                    4
+                </td>
+                <td class="table-warning"> 
+                    1
+                </td>
+                <td class="table-warning">
+                    1
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr class="centered">
+                <td>
+                    Scott
+                </td>
+                <td id="team-points">
+                    2
+                </td>
+                <td> 
+                    2
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function sortTable() {
+      var table, rows, switching, i, x, y, shouldSwitch;
+      table = document.getElementById("standings-table");
+      switching = true;
+      /*Make a loop that will continue until
+      no switching has been done:*/
+      while (switching) {
+        //start by saying: no switching is done:
+        switching = false;
+        rows = table.rows;
+        /*Loop through all table rows (except the
+        first, which contains table headers):*/
+        for (i = 1; i < (rows.length - 1); i++) {
+          //start by saying there should be no switching:
+          shouldSwitch = false;
+          /*Get the two elements you want to compare,
+          one from current row and one from the next:*/
+          x = rows[i].getElementsById("team-points")[0];
+          y = rows[i + 1].getElementsById("team-points")[0];
+          //check if the two rows should switch place:
+          if (Number(x.innerHTML) > Number(y.innerHTML)) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        }
+        if (shouldSwitch) {
+          /*If a switch has been marked, make the switch
+          and mark that a switch has been done:*/
+          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          switching = true;
+        }
+      }
+    }
+    </script>
+
+        <!--<nav class="navbar navbar-expand-sm bg-secondary navbar-dark footer">
+    <ul class="navbar-nav">
+        <li class="nav-item nav-link" href="#">Updated 3/22/2020</li>
+    </ul>
+</nav>-->
+
+<nav class="navbar navbar-expand-sm" id="padds"></nav>
+
+        <!--Javascript //-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+        </script>
+        <script src="js/bootstrap.min.js" type="text/Javascript">
+        </script>
+    </body>
+</hmtl>
