@@ -77,7 +77,7 @@
                 Kurt
                 </td>
                 <td id="team-points">
-                    8
+                    9
                 </td>
                 <td id="remaining"> 
                     1
@@ -94,7 +94,7 @@
                 Joe
                 </td>
                 <td class="table-success" id="team-points">
-                    18.5
+                    20.5
                 </td>
                 <td id="remaining"> 
                     1
@@ -111,7 +111,7 @@
                     Linda
                 </td>
                 <td id="team-points">
-                    17
+                    22.5
                 </td>
                 <td id="remaining"> 
                     2
@@ -128,7 +128,7 @@
                     Randee
                 </td>
                 <td id="team-points">
-                    14
+                    15
                 </td>
                 <td id="remaining"> 
                     1
@@ -145,7 +145,7 @@
                     Amy
                 </td>
                 <td id="team-points">
-                    14
+                    18
                 </td>
                 <td id="remaining"> 
                     1
@@ -162,7 +162,7 @@
                     Scott
                 </td>
                 <td id="team-points">
-                    10
+                    12
                 </td>
                 <td id="remaining"> 
                     1
@@ -176,45 +176,10 @@
             </tr>
         </tbody>
     </table>
-    <p>Updated 4/30; Scores through Episode 6 "Get Your Phil"</p>
+    <p>Updated 5/07; Scores through Episode 7 "Pitch Perfect"</p>
 </div>
 
-<script>
-    function sortTable() {
-      var table, rows, switching, i, x, y, shouldSwitch;
-      table = document.getElementById("standings-table");
-      switching = true;
-      /*Make a loop that will continue until
-      no switching has been done:*/
-      while (switching) {
-        //start by saying: no switching is done:
-        switching = false;
-        rows = table.rows;
-        /*Loop through all table rows (except the
-        first, which contains table headers):*/
-        for (i = 1; i < (rows.length - 1); i++) {
-          //start by saying there should be no switching:
-          shouldSwitch = false;
-          /*Get the two elements you want to compare,
-          one from current row and one from the next:*/
-          x = rows[i].getElementsById("team-points")[0];
-          y = rows[i + 1].getElementsById("team-points")[0];
-          //check if the two rows should switch place:
-          if (Number(x.innerHTML) > Number(y.innerHTML)) {
-            //if so, mark as a switch and break the loop:
-            shouldSwitch = true;
-            break;
-          }
-        }
-        if (shouldSwitch) {
-          /*If a switch has been marked, make the switch
-          and mark that a switch has been done:*/
-          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-          switching = true;
-        }
-      }
-    }
-    </script>
+
 
         <!--<nav class="navbar navbar-expand-sm bg-secondary navbar-dark footer">
     <ul class="navbar-nav">
