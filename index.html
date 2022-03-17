@@ -23,11 +23,11 @@
 <![endif]-->
 </head>
     <body>
-<nav class="navbar navbar-expand-sm" id="padds"></nav>
+        <nav class="navbar navbar-expand-sm" id="padds"></nav>
 <div class="nav-header">
     <nav class="navbar navbar-expand-sm">
         <!-- Brand/logo -->
-        <a class="navbar-brand" href="/index">
+        <a class="navbar-brand" href="/tcf_site/index">
             La Mesa Top Chef Fantasy
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,15 +40,12 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link " href="/tcf_site/index">Standings</a>
-                        <!--<button type="button" class="btn btn-dark nav-link" href="/index"><a class="dark-bg-link" href="/index">Standings</a></button></a>-->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="/tcf_site/teams">Teams</a>
-                        <!--<a class="nav-link" href="/teams"><button type="button" class="btn btn-dark nav-link" href="/index"><a class="dark-bg-link" href="/teams">Teams</a></button>-->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="/tcf_site/rules">Scoring</a>
-                        <!--<a class="nav-link" href="/teams"><button type="button" class="btn btn-dark nav-link" href="/index"><a class="dark-bg-link" href="/teams">Teams</a></button>-->
                     </li>
                 </ul>
             </div>
@@ -60,8 +57,8 @@
     <h1>Standings</h1>
 </div>
 <div class="container" class="standings-table" id="standings-table">
-    <table class="table table-hover table-bordered">
-        <thead>
+    <table class="table table-hover">
+        <thead class="table table-borderless">
             <tr>
                 <th class="align-middle" rowspan="2">Team</th>
                 <th class="align-middle" rowspan="2">Points</th>
@@ -76,50 +73,246 @@
         <tbody>
             <!--**START RANDEE**-->
                 <tr class="centered">
-                <td>Randee</td>
+                <td><a id="randeeModalID" href="#randeeModal" data-bs-toggle="modal">Randee</a></td>
                 <td id="team-points">6</td>
                 <td>3</td>
                 <td>-</td>
                 <td>-</td>
             </tr>
-            <!--**END RANDEE**-->
+            <div class="modal fade" id="randeeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5>Randee</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body bg-dark">
+        <div class="row row-cols-1 row-cols-sm-2 g-3">
+          <div class="col-sm-4">
+            <div class="card border-light">
+              <img class="card-img" src="./images/s19/buddah.jpg">
+              <div class="card-footer bg-light">
+                <h5>Buddah</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img class="card-img" src="./images/s19/jae.jpg">
+              <div class="card-footer bg-light">
+                <h5>Jae</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img class="card-img" src="./images/s19/damarr.jpg">
+              <div class="card-footer bg-light">
+                <h5>Damarr</h5>
+                </div>
+            </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>            <!--**END RANDEE**-->
             <!--**START AMY**-->
             <tr class="centered">
-                <td>Amy</td>
+                <td><a id="amyModalID" href="#amyModal" data-bs-toggle="modal">Amy</a></td>
                 <td id="team-points">3.5</td>
                 <td>3</td>
                 <td>-</td>
                 <td>-</td>
             </tr>
-            <!--**END AMY**-->
+            <div class="modal fade" id="amyModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5>Amy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body bg-dark">
+        <div class="row row-cols-1 row-cols-sm-2 g-3">
+            <div class="col-sm-4">
+              <div class="card border-light">
+                <img class="card-img" src="./images/s19/ashleigh.jpg">
+                <div class="card-footer bg-light">
+                  <h5>Ashleigh</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img" src="./images/s19/nick.jpg">
+                <div class="card-footer bg-light">
+                  <h5>Nick</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img" src="./images/s19/monique.jpg">
+                <div class="card-footer bg-light">
+                  <h5>Monique</h5>
+                </div>
+            </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>            <!--**END AMY**-->
             <!--**START JOE**-->
             <tr class="centered">
-                <td>Joe</td>
+                <td><a href="#joeModal" data-bs-toggle="modal" data-bs-target="#joeModal" joe>Joe</a></td>
                 <td id="team-points">3</td>
                 <td>3</td>
                 <td>-</td>
                 <td>-</td>
             </tr>
-            <!--**END JOE**-->
+            <div class="modal fade" id="joeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5>Joe</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body bg-dark">
+        <div class="row row-cols-1 row-cols-sm-2 g-3">
+
+           <div class="col-sm-4">
+              <div class="card border-light">
+                <img class="card-img" src="./images/s19/sarah.jpg">
+                <div class="card-footer bg-light">
+                  <h5>Sarah</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img" src="./images/s19/jackson.jpg">
+                <div class="card-footer bg-light">
+                  <h5>Jackson</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img" src="./images/s19/sam.jpg">
+                <div class="card-footer bg-light">
+                  <h5>Sam</h5>
+                </div>
+              </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>            <!--**END JOE**-->
             <!--**START SCOTT**-->
             <tr class="centered">
-                <td>Scott</td>
+                <td><a href="#scottModal" data-bs-toggle="modal" data-bs-target="#scottModal" scott>Scott</a></td>
                 <td id="team-points">3</td>
                 <td>3</td>
                 <td>-</td>
                 <td>-</td>
             </tr>
-            <!--**END SCOTT**-->
+            <div class="modal fade" id="scottModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5>Scott</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body bg-dark">
+        <div class="row row-cols-1 row-cols-sm-2 g-3">
+          <div class="col-sm-4">    
+            <div class="card border-light">
+                  <img class="card-img" src="./images/s19/luke.jpg">
+                  <div class="card-footer bg-light">
+                    <h5>Luke</h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img" src="./images/s19/jo.jpg">
+                  <div class="card-footer bg-light">
+                    <h5>Jo</h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img" src="./images/s19/robert.jpg">
+                  <div class="card-footer bg-light">
+                    <h5>Robert</h5>
+                  </div>
+                </div>
+                </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>            <!--**END SCOTT**-->
             <!--**START RIO**-->
             <tr class="centered">
-                <td>Rio</td>
+                <td><a href="#rioModal" data-bs-toggle="modal">Rio</a></td>
                 <td id="team-points">2.5</td>
                 <td>1</td>
                 <td>1</td>
                 <td>1</td>
             </tr>
-            <!--**END AMY**-->
-        </tbody>
+            <div class="modal fade" id="rioModal" tabindex="-1" aria-labelledby="rioModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h5>Rio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-dark">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+          <div class="col-sm-5">
+            <div class="card border-danger opacity-50">
+              <img class="card-img" src="./images/s19/stephanie.jpg" width="col-sm-3">
+              <div class="card-footer bg-danger">
+                <h5 class="text-white">Stephanie</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="card border-warning opacity-75">
+              <img class="card-img" src="./images/s19/leia.jpg">
+              <div class="card-footer bg-warning">
+                <h5 class="text-white">Leia</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="card">
+              <img class="card-img" src="./images/s19/evelyn.jpg">
+              <div class="card-footer bg-light">
+                <h5>Evelyn</h5>
+              </div>
+            </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>            <!--**END RIO**-->
+        </div></div></div></div></div></tbody>
     </table>
     <small>Updated 3/15/2022</small>
 </div>
@@ -279,13 +472,8 @@
 </div>
 
 <script>
-</script>
+</script></div>
 
-        <!--<nav class="navbar navbar-expand-sm bg-secondary navbar-dark footer">
-    <ul class="navbar-nav">
-        <li class="nav-item nav-link" href="#">Updated 3/22/2020</li>
-    </ul>
-</nav>-->
 
 <nav class="navbar navbar-expand-sm" id="padds"></nav>
 
