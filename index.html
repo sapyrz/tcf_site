@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Top Chef Fantasy  |  Home  </title>
+    <title>Top Chef Fantasy  |  Home | </title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
@@ -23,7 +23,7 @@
 <![endif]-->
 </head>
     <body>
-<nav class="navbar navbar-expand-lg navbar-dark" id="padds">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="padds">
     <div class="container-fluid">
          <!-- Brand/logo -->
          <a class="navbar-brand" href="/tcf_site/index">La Mesa Top Chef Fantasy</a>
@@ -48,7 +48,10 @@
  </nav>
 
         <!--
-<div class="container standings-table table-responsive table-sm" id="standings-table">
+<div class="container">
+<h1>Standings</h1>
+</div>
+<div class="container" class="standings-table" id="standings-table">
 <table class="table table-hover">
 <thead class="table table-borderless">
  <tr>
@@ -65,10 +68,10 @@
 <tbody>
                                 <tr class="centered">
                                     <td><a href="#randeeModal" data-bs-toggle="modal" data-bs-target="#randeeModal">Randee</a></td>
-                                    <td id="team-points">11</td>
+                                    <td id="team-points">16.5</td>
                                     <td>3</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <div class="modal fade" id="randeeModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -110,11 +113,57 @@
     </div>
   </div>
 </div>                                <tr class="centered">
+                                    <td><a href="#joeModal" data-bs-toggle="modal" data-bs-target="#joeModal">Joe</a></td>
+                                    <td id="team-points">11</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <div class="modal fade" id="joeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5>Joe</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body bg-dark">
+        <div class="row row-cols-1 row-cols-sm-2 g-3">
+           <div class="col-sm-4">
+              <div class="card border-warning opacity-75">
+                <img class="card-img" src="./images/s19/sarah.jpg" >
+                <div class="card-footer bg-warning">
+                  <h5 class="text-white">Sarah</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img" src="./images/s19/jackson.jpg" >
+                <div class="card-footer bg-light">
+                  <h5>Jackson</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card border-danger opacity-50">
+                <img class="card-img" src="./images/s19/sam.jpg" >
+                <div class="card-footer bg-danger">
+                  <h5 class="text-white">Sam</h5>
+                </div>
+              </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>                                <tr class="centered">
                                     <td><a href="#amyModal" data-bs-toggle="modal" data-bs-target="#amyModal">Amy</a></td>
-                                    <td id="team-points">6.5</td>
+                                    <td id="team-points">10.5</td>
                                     <td>3</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <div class="modal fade" id="amyModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -156,58 +205,11 @@
     </div>
   </div>
 </div>                                <tr class="centered">
-                                    <td><a href="#joeModal" data-bs-toggle="modal" data-bs-target="#joeModal">Joe</a></td>
-                                    <td id="team-points">6</td>
-                                    <td>2</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">1</td>
-                                </tr>
-                                <div class="modal fade" id="joeModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-            <h5>Joe</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-    <div class="modal-body bg-dark">
-        <div class="row row-cols-1 row-cols-sm-2 g-3">
-
-           <div class="col-sm-4">
-              <div class="card border-light">
-                <img class="card-img" src="./images/s19/sarah.jpg" >
-                <div class="card-footer bg-light">
-                  <h5>Sarah</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card">
-                <img class="card-img" src="./images/s19/jackson.jpg" >
-                <div class="card-footer bg-light">
-                  <h5>Jackson</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card border-danger opacity-50">
-                <img class="card-img" src="./images/s19/sam.jpg" >
-                <div class="card-footer bg-danger">
-                  <h5 class="text-white">Sam</h5>
-                </div>
-              </div>
-              </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>                                <tr class="centered">
                                     <td><a href="#scottModal" data-bs-toggle="modal" data-bs-target="#scottModal">Scott</a></td>
-                                    <td id="team-points">6</td>
-                                    <td>3</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">0</td>
+                                    <td id="team-points">9</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>0</td>
                                 </tr>
                                 <div class="modal fade" id="scottModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -235,10 +237,10 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card">
+                <div class="card border-danger opacity-50">
                   <img class="card-img" src="./images/s19/robert.jpg" >
-                  <div class="card-footer bg-light">
-                    <h5>Robert</h5>
+                  <div class="card-footer bg-danger">
+                    <h5 class="text-white">Robert</h5>
                   </div>
                 </div>
                 </div>
@@ -250,10 +252,10 @@
       </div>
     </div>                                <tr class="centered">
                                     <td><a href="#rioModal" data-bs-toggle="modal" data-bs-target="#rioModal">Rio</a></td>
-                                    <td id="team-points">5.5</td>
+                                    <td id="team-points">7</td>
                                     <td>1</td>
-                                    <td class="text-warning">1</td>
-                                    <td class="text-danger">1</td>
+                                    <td>1</td>
+                                    <td>1</td>
                                 </tr>
                                 <div class="modal fade" id="rioModal" tabindex="-1" aria-labelledby="rioModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
@@ -296,7 +298,7 @@
   </div>
 </div>                                </tbody>
                             </table>
-                            <small>Updated 2022-03-21</small>
+                            <small>Updated 2022-04-02</small>
                         </div>-->
 <div class="spacer"></div>
 <div class="container">
@@ -310,7 +312,10 @@
         <div id="panelsStayOpen-Standings" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-Standings-Header">
             <div class="accordion-body">
                 
-<div class="container standings-table table-responsive table-sm" id="standings-table">
+<div class="container">
+<h1>Standings</h1>
+</div>
+<div class="container" class="standings-table" id="standings-table">
 <table class="table table-hover">
 <thead class="table table-borderless">
  <tr>
@@ -327,10 +332,10 @@
 <tbody>
                                 <tr class="centered">
                                     <td><a href="#randeeModal" data-bs-toggle="modal" data-bs-target="#randeeModal">Randee</a></td>
-                                    <td id="team-points">11</td>
+                                    <td id="team-points">16.5</td>
                                     <td>3</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <div class="modal fade" id="randeeModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -372,11 +377,57 @@
     </div>
   </div>
 </div>                                <tr class="centered">
+                                    <td><a href="#joeModal" data-bs-toggle="modal" data-bs-target="#joeModal">Joe</a></td>
+                                    <td id="team-points">11</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <div class="modal fade" id="joeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5>Joe</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+    <div class="modal-body bg-dark">
+        <div class="row row-cols-1 row-cols-sm-2 g-3">
+           <div class="col-sm-4">
+              <div class="card border-warning opacity-75">
+                <img class="card-img" src="./images/s19/sarah.jpg">
+                <div class="card-footer bg-warning">
+                  <h5 class="text-white">Sarah</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img" src="./images/s19/jackson.jpg">
+                <div class="card-footer bg-light">
+                  <h5>Jackson</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card border-danger opacity-50">
+                <img class="card-img" src="./images/s19/sam.jpg">
+                <div class="card-footer bg-danger">
+                  <h5 class="text-white">Sam</h5>
+                </div>
+              </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>                                <tr class="centered">
                                     <td><a href="#amyModal" data-bs-toggle="modal" data-bs-target="#amyModal">Amy</a></td>
-                                    <td id="team-points">6.5</td>
+                                    <td id="team-points">10.5</td>
                                     <td>3</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <div class="modal fade" id="amyModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -418,58 +469,11 @@
     </div>
   </div>
 </div>                                <tr class="centered">
-                                    <td><a href="#joeModal" data-bs-toggle="modal" data-bs-target="#joeModal">Joe</a></td>
-                                    <td id="team-points">6</td>
-                                    <td>2</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">1</td>
-                                </tr>
-                                <div class="modal fade" id="joeModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-            <h5>Joe</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-    <div class="modal-body bg-dark">
-        <div class="row row-cols-1 row-cols-sm-2 g-3">
-
-           <div class="col-sm-4">
-              <div class="card border-light">
-                <img class="card-img" src="./images/s19/sarah.jpg">
-                <div class="card-footer bg-light">
-                  <h5>Sarah</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card">
-                <img class="card-img" src="./images/s19/jackson.jpg">
-                <div class="card-footer bg-light">
-                  <h5>Jackson</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card border-danger opacity-50">
-                <img class="card-img" src="./images/s19/sam.jpg">
-                <div class="card-footer bg-danger">
-                  <h5 class="text-white">Sam</h5>
-                </div>
-              </div>
-              </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>                                <tr class="centered">
                                     <td><a href="#scottModal" data-bs-toggle="modal" data-bs-target="#scottModal">Scott</a></td>
-                                    <td id="team-points">6</td>
-                                    <td>3</td>
-                                    <td class="text-warning">0</td>
-                                    <td class="text-danger">0</td>
+                                    <td id="team-points">9</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>0</td>
                                 </tr>
                                 <div class="modal fade" id="scottModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -497,10 +501,10 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card">
+                <div class="card border-danger opacity-50">
                   <img class="card-img" src="./images/s19/robert.jpg">
-                  <div class="card-footer bg-light">
-                    <h5>Robert</h5>
+                  <div class="card-footer bg-danger">
+                    <h5 class="text-white">Robert</h5>
                   </div>
                 </div>
                 </div>
@@ -512,10 +516,10 @@
       </div>
     </div>                                <tr class="centered">
                                     <td><a href="#rioModal" data-bs-toggle="modal" data-bs-target="#rioModal">Rio</a></td>
-                                    <td id="team-points">5.5</td>
+                                    <td id="team-points">7</td>
                                     <td>1</td>
-                                    <td class="text-warning">1</td>
-                                    <td class="text-danger">1</td>
+                                    <td>1</td>
+                                    <td>1</td>
                                 </tr>
                                 <div class="modal fade" id="rioModal" tabindex="-1" aria-labelledby="rioModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
@@ -558,7 +562,7 @@
   </div>
 </div>                                </div></div></div></div></div></tbody>
                             </table>
-                            <small>Updated 2022-03-21</small>
+                            <small>Updated 2022-04-02</small>
                         </div>            </div>
         </div>
         </div>
@@ -586,34 +590,40 @@
                                 <th>
                                     3
                                 </th>
+                                <th>
+                                    4
+                                </th>
                             </tr>
                             <tr> 
-                                <th class="align-left" style="vertical-align:top" rowspan="3">
+                                <th class="align-left" style="vertical-align:top" rowspan="4">
                                    Quickfire
                                 </th>
                                 <td class="table-success">Jo</td>
                                 <td class="table-success">Damarr</td>
                                 <td style="vertical-align: top" rowspan="3">None</td>
+                                <td class="table-success">Jackson</td>
                             </tr>
                             <tr>
                                 <td class="table-success">Monique</td>
                                 <td>Evelyn</td>
+                                <td>Damarr</td>
                             </tr>
                             <tr>
                                 <td class="table-success">Buddah</td>
                                 <td>Nick</td>
+                                <td>Evelyn</td>
                             </tr>
                             <tr>
                             </tr>
                             <tr>
-                                <td colspan="4" class="table-dark">
+                                <td colspan="5" class="table-dark">
                                 </td>
                             </tr>
                             <tr>
                                 <th class="align-left">
                                     Contestant
                                 </th>
-                                <th colspan="3">
+                                <th colspan="4">
                                     Elimination
                                 </th>
                             </tr>
@@ -625,6 +635,7 @@
                                 <td></td>
                                 <td></td>
                                 <td class="table-warning">Bottom</td>
+                                <td class="table-primary">Top   </td>
                             </tr>
                             
         <div class="modal fade" id="ashleighModal" tabindex="-1" aria-hidden="true">
@@ -646,10 +657,10 @@
                                             <li>Quickfire wins: None</li>
                                             <li>Quickfire tops: None</li>                 
                                             <li>Elimination wins: None</li>                 
-                                            <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Elimination tops: 1</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 2</li>
+                                            <li>Total points: 4</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -669,8 +680,9 @@
                                 <td></td>
                                 <td></td>
                                 <td class="table-warning">Bottom</td>
+                                <td class="table-success">Won</td>
                             </tr>
-                       
+                            
         <div class="modal fade" id="buddahModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -689,11 +701,11 @@
                                         <ul>            
                                             <li>Quickfire wins: None</li>
                                             <li>Quickfire tops: None</li>                 
-                                            <li>Elimination wins: None</li>                 
+                                            <li>Elimination wins: 1</li>                 
                                             <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 2</li>
+                                            <li>Total points: 5</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -712,6 +724,7 @@
                                 <td><a href="#damarrModal" data-bs-toggle="modal">Damarr</a></td>
                                 <td></td>
                                 <td class="table-success">Won</td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             
@@ -732,12 +745,12 @@
                                     <div class="card-body">
                                         <ul>            
                                             <li>Quickfire wins: 1</li>
-                                            <li>Quickfire tops: None</li>                 
+                                            <li>Quickfire tops: 1</li>                 
                                             <li>Elimination wins: 1</li>                 
                                             <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 5</li>
+                                            <li>Total points: 6.5</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -757,6 +770,7 @@
                                 <td></td>
                                 <td></td>
                                 <td class="table-primary">Top</td>
+                                <td class="table-warning">Bottom</td>
                             </tr>
                             
         <div class="modal fade" id="evelynModal" tabindex="-1" aria-hidden="true">
@@ -776,12 +790,12 @@
                                     <div class="card-body">
                                         <ul>            
                                             <li>Quickfire wins: None</li>
-                                            <li>Quickfire tops: 1</li>                 
+                                            <li>Quickfire tops: 2</li>                 
                                             <li>Elimination wins: None</li>                 
                                             <li>Elimination tops: 1</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 3.5</li>
+                                            <li>Total points: 5</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -801,6 +815,7 @@
                                 <td class="table-primary">Top</td>
                                 <td></td>
                                 <td class="table-primary">Top</td>
+                                <td class="table-success">Won</td>
                             </tr>
                             
         <div class="modal fade" id="jacksonModal" tabindex="-1" aria-hidden="true">
@@ -819,13 +834,13 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <ul>            
-                                            <li>Quickfire wins: None</li>
+                                            <li>Quickfire wins: 1</li>
                                             <li>Quickfire tops: None</li>                 
-                                            <li>Elimination wins: None</li>                 
+                                            <li>Elimination wins: 1</li>                 
                                             <li>Elimination tops: 1</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 3</li>
+                                            <li>Total points: 7</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -845,6 +860,7 @@
                                 <td class="table-warning">Bottom</td>
                                 <td></td>
                                 <td class="table-success">Won</td>
+                                <td></td>
                             </tr>
                             
         <div class="modal fade" id="jaeModal" tabindex="-1" aria-hidden="true">
@@ -867,9 +883,9 @@
                                             <li>Quickfire tops: None</li>                 
                                             <li>Elimination wins: 1</li>                 
                                             <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 4</li>
+                                            <li>Total points: 5</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -889,6 +905,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td class="table-warning">Bottom</td>
                             </tr>
                             
         <div class="modal fade" id="joModal" tabindex="-1" aria-hidden="true">
@@ -911,9 +928,9 @@
                                             <li>Quickfire tops: None</li>                 
                                             <li>Elimination wins: None</li>                 
                                             <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 2</li>
+                                            <li>Total points: 3</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -933,6 +950,7 @@
                                 <td></td>
                                 <td class="table-warning">Bottom</td>
                                 <td></td>
+                                <td class="table-primary">Top</td>
                             </tr>
                             
         <div class="modal fade" id="lukeModal" tabindex="-1" aria-hidden="true">
@@ -954,10 +972,10 @@
                                             <li>Quickfire wins: None</li>
                                             <li>Quickfire tops: None</li>                 
                                             <li>Elimination wins: None</li>                 
-                                            <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Elimination tops: 1</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 2</li>
+                                            <li>Total points: 4</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -974,6 +992,7 @@
                             <!--**START MONIQUE**-->
                             <tr>
                                 <td><a href="#moniqueModal" data-bs-toggle="modal">Monique</a></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -999,9 +1018,9 @@
                                             <li>Quickfire tops: None</li>                 
                                             <li>Elimination wins: None</li>                 
                                             <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 2</li>
+                                            <li>Total points: 3</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -1018,6 +1037,7 @@
                             <!--**START NICK**-->
                             <tr>
                                 <td><a href="#nickModal" data-bs-toggle="modal">Nick</a></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1043,9 +1063,9 @@
                                             <li>Quickfire tops: 1</li>                 
                                             <li>Elimination wins: None</li>                 
                                             <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
+                                            <li>Episodes survived: 3</li>                 
                                             <li>LCK wins: None</li>            
-                                            <li>Total points: 2.5</li>
+                                            <li>Total points: 3.5</li>
                                         </ul>
                                         <p><small class="text-muted">Player stats do not include the first episode.</small></p>
                                     </div>
@@ -1059,19 +1079,66 @@
                 </div>
             </div>
         </div>                            <!--**END NICK**-->
+                            <!--**START SARAH**-->
+                            <tr>
+                                <td><a href="#sarahModal" data-bs-toggle="modal">Sarah (LCK)</a></td>
+                                <td class="table-primary">Top</td>
+                                <td class="table-warning">Bottom</td>
+                                <td></td>
+                                <td class="table-danger">Eliminated</td>
+                            </tr>
+                            
+        <div class="modal fade" id="sarahModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="text-warning">Sarah - LCK</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-dark">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/s19/sarah.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <ul>            
+                                            <li>Quickfire wins: None</li>
+                                            <li>Quickfire tops: None</li>                 
+                                            <li>Elimination wins: None</li>                 
+                                            <li>Elimination tops: None</li>                 
+                                            <li>Episodes survived: 2</li>                 
+                                            <li>LCK wins: 1</li>                                      
+                                            <li>Won LCK? False</li>            
+                                            <li>Total points: 3</li>
+                                        </ul>
+                                        <p><small class="text-muted">Player stats do not include the first episode.</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>                            <!--**END SARAH**-->
                             <!--**START ROBERT**-->
                             <tr>
                                 <td><a href="#robertModal" data-bs-toggle="modal">Robert</a></td>
                                 <td class="table-success">Won</td>
                                 <td></td>
                                 <td></td>
+                                <td class="table-danger">Eliminated</td>
                             </tr>
                             
         <div class="modal fade" id="robertModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="text-success">Robert - Active</h5>
+                        <h5 class="text-danger">Robert - Eliminated</h5>
                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body bg-dark">
@@ -1103,56 +1170,13 @@
                 </div>
             </div>
         </div>                            <!--**END ROBERT**-->
-                            <!--**START SARAH**-->
-                            <tr>
-                                <td><a href="#sarahModal" data-bs-toggle="modal">Sarah</a></td>
-                                <td class="table-primary">Top</td>
-                                <td class="table-warning">Bottom</td>
-                                <td></td>
-                            </tr>
-                            
-        <div class="modal fade" id="sarahModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="text-success">Sarah - Active</h5>
-                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body bg-dark">
-                        <div class="card mb-3">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="./images/s19/sarah.jpg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <ul>            
-                                            <li>Quickfire wins: None</li>
-                                            <li>Quickfire tops: None</li>                 
-                                            <li>Elimination wins: None</li>                 
-                                            <li>Elimination tops: None</li>                 
-                                            <li>Episodes survived: 2</li>                 
-                                            <li>LCK wins: None</li>            
-                                            <li>Total points: 2</li>
-                                        </ul>
-                                        <p><small class="text-muted">Player stats do not include the first episode.</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>                            <!--**END SARAH**-->
                             <!--**START SAM**-->
                             <tr>
                                 <td><a href="#samModal" data-bs-toggle="modal">Sam</a></td>
                                 <td></td>
                                 <td></td>
                                 <td class="table-danger">Eliminated</td>
+                                <td class="table-active"></td>
                             </tr>
                             
         <div class="modal fade" id="samModal" tabindex="-1" aria-hidden="true">
@@ -1196,7 +1220,7 @@
                                 <td><a href="#stephanieModal" data-bs-toggle="modal">Stephanie</a></td>
                                 <td class="table-warning">Bottom</td>
                                 <td class="table-danger">Eliminated</td>
-                                <td class="table-active"></td>
+                                <td class="table-active" colspan="2"></td>
                             </tr>
                             
         <div class="modal fade" id="stephanieModal" tabindex="-1" aria-hidden="true">
@@ -1239,7 +1263,7 @@
                              <tr>
                                 <td><a href="#leiaModal" data-bs-toggle="modal">Leia (LCK)</a></td>
                                 <td class="table-danger">Eliminated</td>
-                                <td class="table-active" colspan="2"></td>
+                                <td class="table-active" colspan="3"></td>
                             </tr>
                             
         <div class="modal fade" id="leiaModal" tabindex="-1" aria-hidden="true">
@@ -1315,62 +1339,62 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Damarr</td>
-                                    <td>5</td>
+                                    <td>Jackson</td>
+                                    <td>7</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Jae</td>
-                                    <td>4</td>
+                                    <td>Damarr</td>
+                                    <td>6.5</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>Buddah</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
                                     <td>Evelyn</td>
-                                    <td>3.5</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Jackson</td>
-                                    <td>3</td>
+                                    <td>5</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Nick</td>
-                                    <td>2.5</td>
+                                    <td>Jae</td>
+                                    <td>5</td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
                                     <td>Ashleigh</td>
-                                    <td>2</td>
+                                    <td>4</td>
                                 </tr>
                                 <tr>
                                     <td>7</td>
-                                    <td>Buddah</td>
-                                    <td>2</td>
+                                    <td>Luke</td>
+                                    <td>4</td>
                                 </tr>
                                 <tr>
                                     <td>8</td>
-                                    <td>Jo</td>
-                                    <td>2</td>
+                                    <td>Nick</td>
+                                    <td>3.5</td>
                                 </tr>
                                 <tr>
                                     <td>9</td>
-                                    <td>Luke</td>
-                                    <td>2</td>
+                                    <td>Jo</td>
+                                    <td>3</td>
                                 </tr>
                                 <tr>
                                     <td>10</td>
                                     <td>Monique</td>
-                                    <td>2</td>
+                                    <td>3</td>
                                 </tr>
                                 <tr>
                                     <td>11</td>
-                                    <td>Robert</td>
-                                    <td>2</td>
+                                    <td>Sarah</td>
+                                    <td>3</td>
                                 </tr>
                                 <tr>
                                     <td>12</td>
-                                    <td>Sarah</td>
+                                    <td>Robert</td>
                                     <td>2</td>
                                 </tr>
                                 <tr>
@@ -1418,34 +1442,14 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>Jackson</td>
+                                    <td>1</td>
+                                    <td>None</td>
+                                </tr>
+                                <tr>
                                     <td>Damarr</td>
                                     <td>1</td>
-                                    <td>None</td>
-                                </tr>
-                                <tr>
-                                    <td>Jae</td>
-                                    <td>None</td>
-                                    <td>None</td>
-                                </tr>
-                                <tr>
-                                    <td>Evelyn</td>
-                                    <td>None</td>
                                     <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>Jackson</td>
-                                    <td>None</td>
-                                    <td>None</td>
-                                </tr>
-                                <tr>
-                                    <td>Nick</td>
-                                    <td>None</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>Ashleigh</td>
-                                    <td>None</td>
-                                    <td>None</td>
                                 </tr>
                                 <tr>
                                     <td>Buddah</td>
@@ -1453,7 +1457,17 @@
                                     <td>None</td>
                                 </tr>
                                 <tr>
-                                    <td>Jo</td>
+                                    <td>Evelyn</td>
+                                    <td>None</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Jae</td>
+                                    <td>None</td>
+                                    <td>None</td>
+                                </tr>
+                                <tr>
+                                    <td>Ashleigh</td>
                                     <td>None</td>
                                     <td>None</td>
                                 </tr>
@@ -1463,17 +1477,27 @@
                                     <td>None</td>
                                 </tr>
                                 <tr>
+                                    <td>Nick</td>
+                                    <td>None</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Jo</td>
+                                    <td>None</td>
+                                    <td>None</td>
+                                </tr>
+                                <tr>
                                     <td>Monique</td>
                                     <td>None</td>
                                     <td>None</td>
                                 </tr>
                                 <tr>
-                                    <td>Robert</td>
+                                    <td>Sarah</td>
                                     <td>None</td>
                                     <td>None</td>
                                 </tr>
                                 <tr>
-                                    <td>Sarah</td>
+                                    <td>Robert</td>
                                     <td>None</td>
                                     <td>None</td>
                                 </tr>
@@ -1515,19 +1539,24 @@
                         <table class="table table-sm table-hover table-dark">
                             <thead class="table table-borderless">
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Wins</th>
-                                    <th>Tops</th>
+                                    <th class="text-white">Name</th>
+                                    <th class="text-white">Wins</th>
+                                    <th class="text-white">Tops</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr>
+                                    <td>Jackson</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
                                 <tr>
                                     <td>Damarr</td>
                                     <td>1</td>
                                     <td>None</td>
                                 </tr>
                                 <tr>
-                                    <td>Jae</td>
+                                    <td>Buddah</td>
                                     <td>1</td>
                                     <td>None</td>
                                 </tr>
@@ -1537,7 +1566,17 @@
                                     <td>1</td>
                                 </tr>
                                 <tr>
-                                    <td>Jackson</td>
+                                    <td>Jae</td>
+                                    <td>1</td>
+                                    <td>None</td>
+                                </tr>
+                                <tr>
+                                    <td>Ashleigh</td>
+                                    <td>None</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Luke</td>
                                     <td>None</td>
                                     <td>1</td>
                                 </tr>
@@ -1547,22 +1586,7 @@
                                     <td>None</td>
                                 </tr>
                                 <tr>
-                                    <td>Ashleigh</td>
-                                    <td>None</td>
-                                    <td>None</td>
-                                </tr>
-                                <tr>
-                                    <td>Buddah</td>
-                                    <td>None</td>
-                                    <td>None</td>
-                                </tr>
-                                <tr>
                                     <td>Jo</td>
-                                    <td>None</td>
-                                    <td>None</td>
-                                </tr>
-                                <tr>
-                                    <td>Luke</td>
                                     <td>None</td>
                                     <td>None</td>
                                 </tr>
@@ -1572,12 +1596,12 @@
                                     <td>None</td>
                                 </tr>
                                 <tr>
-                                    <td>Robert</td>
+                                    <td>Sarah</td>
                                     <td>None</td>
                                     <td>None</td>
                                 </tr>
                                 <tr>
-                                    <td>Sarah</td>
+                                    <td>Robert</td>
                                     <td>None</td>
                                     <td>None</td>
                                 </tr>
@@ -1613,8 +1637,13 @@
 </div>
 <div class="spacer"></div>
 <script>
-</script></div>
+</script>
 
+        <!--<nav class="navbar navbar-expand-sm bg-secondary navbar-dark footer">
+    <ul class="navbar-nav">
+        <li class="nav-item nav-link" href="#">Updated 3/22/2020</li>
+    </ul>
+</nav>-->
 
 <nav class="navbar navbar-expand-sm" id="padds"></nav>
 
