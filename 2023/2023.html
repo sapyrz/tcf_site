@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Mesa TCF</title>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/fontawesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/theme.css">
+<link href='//fonts.googleapis.com/css?family=Raleway:400,300,700,900' rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
+<!--WARNING: Respond.js doesn't work if you view the page with file://-->
+<!--[If It IE9]>
+<script src="https://ossmaxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+</script>
+<script src="https://ossmaxcdn.com/respond/1.4.2/respond.min.js">
+</script>
+<![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" id="padds">
+<div class="container-fluid">
+<!-- Brand/logo -->
+<a class="navbar-brand" href="/tcf_site/index">La Mesa Top Chef Fantasy</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<!-- Links -->
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link " href="/tcf_site/index">Standings</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " href="/tcf_site/teams">Teams</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " href="/tcf_site/rules">Scoring</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Previous years
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="/tcf_site/2022/2022">2022 (Season 19)</a></li>
+<li><a class="dropdown-item" href="/tcf_site/2023/2023">2023 (Season 20)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="spacer"></div>
+<div class="container">
+<div class="accordion" id="accordionPanelsStayOpenExample">
+<div class="accordion-item">
+<h2 class="accordion-header" id="panelsStayOpen-Standings-Header">
+<button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-Standings" aria-expanded="true" aria-controls="panelsStayOpen-Standings">
+Standings
+</button>
+</h2>
+<div id="panelsStayOpen-Standings" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-Standings-Header">
+<div class="accordion-body">
+<div class="container" class="standings-table" id="standings-table">
+<table class="table table-hover table-small">
+<thead class="table table-borderless">
+<tr>
+<th class="align-middle">Team</th>
+<th class="align-middle">Points</th>
+<th class="align-middle">Active</th>
+<th class="align-middle">LCK</th>
+<th class="align-middle">Out</th>
+</tr>
+</thead>
+<tbody>
+<tr class="centered">
+<td data-title=""><a href="#joeModal" data-bs-toggle="modal" data-bs-target="#joeModal">Joe</a></td>
+<td data-title="Points" id="team-points">59.5</td>
+<td data-title="Active">2</td>
+<td data-title="LCK">0</td>
+<td data-title="Out">1</td>
+</tr>
+<div class="modal fade" id="joeModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Joe</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="row row-cols-1 row-cols-sm-2 g-3">
+<div class="col-sm-4">
+<div class="card opacity-100">
+<img class="card-img" src="../images/s20/sara.jpg" >
+<div class="card-footer">
+<h5>Sara</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/victoire.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Victoire</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-100">
+<img class="card-img" src="../images/s20/gabriel.jpg" >
+<div class="card-footer">
+<h5>Gabri</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><tr class="centered">
+<td data-title=""><a href="#randeeModal" data-bs-toggle="modal" data-bs-target="#randeeModal">Randee</a></td>
+<td data-title="Points" id="team-points">52.5</td>
+<td data-title="Active">1</td>
+<td data-title="LCK">0</td>
+<td data-title="Out">2</td>
+</tr>
+<div class="modal fade" id="randeeModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Randee</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="row row-cols-1 row-cols-sm-2 g-3">
+<div class="col-sm-4">
+<div class="card opacity-100">
+<img class="card-img" src="../images/s20/buddha.jpg" >
+<div class="card-footer">
+<h5>Buddha</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/begonia.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Begonia</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/luciana.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Luciana</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><tr class="centered">
+<td data-title=""><a href="#rioModal" data-bs-toggle="modal" data-bs-target="#rioModal">Rio</a></td>
+<td data-title="Points" id="team-points">44.5</td>
+<td data-title="Active">0</td>
+<td data-title="LCK">0</td>
+<td data-title="Out">3</td>
+</tr>
+<div class="modal fade" id="rioModal" tabindex="-1" aria-labelledby="rioModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Rio</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="row row-cols-1 row-cols-md-3 g-3">
+<div class="col-sm-5">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/dawn.jpg" width="col-sm-3" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Dawn</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/amar.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Amar</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/ali.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Ali</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><tr class="centered">
+<td data-title=""><a href="#amyModal" data-bs-toggle="modal" data-bs-target="#amyModal">Amy</a></td>
+<td data-title="Points" id="team-points">25.0</td>
+<td data-title="Active">0</td>
+<td data-title="LCK">0</td>
+<td data-title="Out">3</td>
+</tr>
+<div class="modal fade" id="amyModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Amy</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="row row-cols-1 row-cols-sm-2 g-3">
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/tom.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Tom</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/may.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">May</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/dale.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Dale</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><tr class="centered">
+<td data-title=""><a href="#scottModal" data-bs-toggle="modal" data-bs-target="#scottModal">Scott</a></td>
+<td data-title="Points" id="team-points">24.0</td>
+<td data-title="Active">0</td>
+<td data-title="LCK">0</td>
+<td data-title="Out">3</td>
+</tr>
+<div class="modal fade" id="scottModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Scott</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="row row-cols-1 row-cols-sm-2 g-3">
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/charbel.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Charbel</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/sylwia.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Sylwia</h5>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card opacity-50 border-danger">
+<img class="card-img" src="../images/s20/nicole.jpg" >
+<div class="card-footer bg-danger">
+<h5 class="text-white">Nicole</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-light btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div></tbody>
+</table>
+<small>Last updated 2023-05-13</small>
+</div></div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="panelsStayOpen-Results-Header">
+<button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-Results" aria-expanded="false" aria-controls="panelsStayOpen-Results">
+Episode results
+</button>
+</h2>
+<div id="panelsStayOpen-Results" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-Results-Header">
+<div class="accordion-body">
+<div class="container table-responsive table-small mt-3">
+<div id="small-screen-alert" class="alert alert-secondary alert-dismissible fade show" role="alert">
+On small screens only the latest episode is shown. For full results, rotate your phone or use a larger screen (laptop/tablet).
+<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<h4 class="p-2">Quickfire</h4>
+<table id="quickfire-table" class="table table-hover table-bordered">
+<thead>
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-success">Sara and Dale</td>
+<td>Nicole</td>
+<td>No QF</td>
+<td>Nicole</td>
+<td class="table-success">Tom</td>
+<td class="table-success">Dale</td>
+<td>Nicole</td>
+<td class="table-success">Buddha</td>
+<td>No QF</td>
+<td>Buddha</td>
+<td class="table-success">Buddha</td>
+<td class="table-success">Buddha</td>
+<td class="table-success">Ali</td>
+<td>No QF</td>
+</tr>
+<tr>
+<td>Gabri and Luciana</td>
+<td>Tom</td>
+<td class="qf-empty"></td>
+<td class="table-success">Ali</td>
+<td>Victoire</td>
+<td class="qf-empty"></td>
+<td class="table-success">Buddha</td>
+<td>Gabri</td>
+<td class="qf-empty"></td>
+<td class="table-success">Amar</td>
+<td>Gabri</td>
+<td>Ali</td>
+<td>Buddha</td>
+<td class="qf-empty"></td>
+</tr>
+<tr>
+<td>Sylwia and Buddah</td>
+<td>Dale</td>
+<td class="qf-empty"></td>
+<td>Luciana</td>
+<td>Charbel</td>
+<td class="qf-empty"></td>
+<td>Amar</td>
+<td>Tom</td>
+<td class="qf-empty"></td>
+<td>Ali</td>
+<td>Sara</td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+</tr>
+<tr>
+<td class="qf-empty"></td>
+<td class="table-success">May</td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+</tr>
+<tr>
+<td class="qf-empty"></td>
+<td>Gabri</td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+<td class="qf-empty"></td>
+</tr>
+</tbody>
+</table>
+<h4 class="p-2">Elimination</h4>
+<table id="elimination-table" class="table table-hover table-bordered">
+<thead>
+<tr>
+<th>Contestant</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+</tr>
+</thead>
+<tbody>
+<!--**START BUDDHA **-->
+<tr>
+<td><a href="#buddhaModal" data-bs-toggle="modal">Buddha</a></td>
+<td></td>
+<td></td>
+<td class="table-success">Won</td>
+<td></td>
+<td class="table-warning">Bottom</td>
+<td class="table-info">Top</td>
+<td></td>
+<td></td>
+<td class="table-success">Won</td>
+<td class="table-warning">Bottom</td>
+<td class="table-success">Won</td>
+<td class="table-success">Won</td>
+<td class="table-info">Top</td>
+<td class="table-success">Winner</td>
+</tr>
+<div class="modal fade" id="buddhaModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-success">Buddha - Active</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../.../../../images/s20/buddha.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Houston," Season 19</b></p>
+<ul>
+<li>Quickfire wins: 2</li>
+<li>Quickfire tops: 3</li>
+<li>Elimination wins: 2</li>
+<li>Elimination tops: 3</li>
+<li>Episodes survived: 9</li>
+<li>LCK wins: None</li>
+<li>Total points: 19.5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END BUDDHA**-->
+<!--**START SARA**-->
+<tr>
+<td><a href="#saraModal" data-bs-toggle="modal">Sara</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="table-info">Top</td>
+<td></td>
+<td class="table-warning">Bottom</td>
+<td class="table-info">Top</td>
+<td class="table-info">Top</td>
+<td class="table-danger">Out</td>
+<td class="table-warning">Low</td>
+<td class="table-success">Won</td>
+<td>Runner-Up</td>
+</tr>
+<div class="modal fade" id="saraModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-success">Sara - Active</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/sara.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Finalist, "Top Chef Kentucky," Season 16</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: None</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: 2</li>
+<li>Episodes survived: 9</li>
+<li>LCK wins: None</li>
+<li>Total points: 11</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END SARA**-->
+<!--**START GABRIEL**-->
+<tr>
+<td><a href="#gabrielModal" data-bs-toggle="modal">Gabriel</a></td>
+<td class="table-warning">Bottom</td>
+<td class="table-info">Top</td>
+<td class="table-info">Top</td>
+<td class="table-warning">Bottom</td>
+<td class="table-warning">Bottom</td>
+<td></td>
+<td></td>
+<td class="table-info">Top</td>
+<td class="table-warning">Bottom</td>
+<td class="table-warning">Bottom</td>
+<td class="table-success">Won</td>
+<td class="table-info">Top</td>
+<td class="table-warning">Low</td>
+<td>Runner-Up</td>
+</tr>
+<div class="modal fade" id="gabrielModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-success">Gabriel - Active</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/gabriel.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Mexico," Season 2</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: 2</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: 3</li>
+<li>Episodes survived: 9</li>
+<li>LCK wins: None</li>
+<li>Total points: 13</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END GABRIEL**-->
+<!--**START ALI**-->
+<tr>
+<td><a href="#aliModal" data-bs-toggle="modal">Ali</a></td>
+<td></td>
+<td class="table-success">Won</td>
+<td class="table-warning">Bottom</td>
+<td></td>
+<td class="table-info">Top</td>
+<td></td>
+<td class="table-success">Won</td>
+<td class="table-info">Top</td>
+<td class="table-info">Top</td>
+<td class="table-info">Top</td>
+<td class="table-warning">Low</td>
+<td class="table-warning">Low</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="20">Out</td>
+</tr>
+<div class="modal fade" id="aliModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-success">Ali - Active</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/ali.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Middle East & North Africa," Season 3: Lebanon</b></p>
+<ul>
+<li>Quickfire wins: 1</li>
+<li>Quickfire tops: 2</li>
+<li>Elimination wins: 2</li>
+<li>Elimination tops: 6</li>
+<li>Episodes survived: 9</li>
+<li>LCK wins: None</li>
+<li>Total points: 21</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END ALI**-->
+<!--**START TOM**-->
+<tr>
+<td><a href="#tomModal" data-bs-toggle="modal">Tom</a></td>
+<td class="table-info">Top</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="table-success">Won</td>
+<td class="table-warning">Bottom</td>
+<td></td>
+<td class="table-warning">Low</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="2">Out</td>
+</tr>
+<div class="modal fade" id="tomModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-success">Tom - Active</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/tom.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Finalist, "Top Chef Germany," Season 1</b></p>
+<ul>
+<li>Quickfire wins: 1</li>
+<li>Quickfire tops: 3</li>
+<li>Elimination wins: 1</li>
+<li>Elimination tops: 1</li>
+<li>Episodes survived: 9</li>
+<li>LCK wins: None</li>
+<li>Total points: 14.5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END TOM**-->
+<!--**START AMAR**-->
+<tr>
+<td><a href="#amarModal" data-bs-toggle="modal">Amar</a></td>
+<td></td>
+<td></td>
+<td class="table-warning">Bottom</td>
+<td></td>
+<td class="table-success">Won</td>
+<td></td>
+<td class="table-info">Top</td>
+<td class="table-warning">Bottom</td>
+<td class="table-info">Top</td>
+<td class="table-success">Won</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="3">Out</td>
+</tr>
+<div class="modal fade" id="amarModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-success">Amar - Active</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/amar.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Finalist, "Top Chef California," Season 13</b></p>
+<ul>
+<li>Quickfire wins: 1</li>
+<li>Quickfire tops: 2</li>
+<li>Elimination wins: 2</li>
+<li>Elimination tops: 4</li>
+<li>Episodes survived: 9</li>
+<li>LCK wins: None</li>
+<li>Total points: 19</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END AMAR**-->
+<!--**START VICTOIRE**-->
+<tr>
+<td><a href="#victoireModal" data-bs-toggle="modal">Victoire</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="table-info">Top</td>
+<td class="table-info">Top</td>
+<td></td>
+<td></td>
+<td class="table-warning">Bottom</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="4">Out</td>
+</tr>
+<div class="modal fade" id="victoireModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Victoire - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/victoire.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Finalist, "Top Chef Italy," Season 2</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: 1</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: 2</li>
+<li>Episodes survived: 8</li>
+<li>LCK wins: None</li>
+<li>Total points: 10.5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END VICTOIRE**-->
+<!--**START NICOLE**-->
+<tr>
+<td><a href="#nicoleModal" data-bs-toggle="modal">Nicole</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="table-success">Won</td>
+<td></td>
+<td></td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="5">Out</td>
+</tr>
+<div class="modal fade" id="nicoleModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Nicole - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/nicole.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Canada," Season 5: All-Stars</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: 3</li>
+<li>Elimination wins: 1</li>
+<li>Elimination tops: 1</li>
+<li>Episodes survived: 7</li>
+<li>LCK wins: None</li>
+<li>Total points: 11.5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END NICOLE**-->
+<!--**START CHARBEL**-->
+<tr>
+<td><a href="#charbelModal" data-bs-toggle="modal">Charbel</a></td>
+<td class="table-success">Won</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="table-info">Top</td>
+<td class="table-info">Top</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="6">Out</td>
+</tr>
+<div class="modal fade" id="charbelModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-warning">Charbel - LCK</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/charbel.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Middle East & North Africa," Season 5: Saudi Arabia</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: 1</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: 2</li>
+<li>Episodes survived: 6</li>
+<li>LCK wins: 3</li>
+<li>Won LCK? False</li>
+<li>Total points: 8.5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END CHARBEL**-->
+<!--**START DALE**-->
+<tr>
+<td><a href="#daleModal" data-bs-toggle="modal">Dale (LCK)</a></td>
+<td></td>
+<td></td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="2"></td>
+<td class="table-info">Top</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="7">Out</td>
+</tr>
+<div class="modal fade" id="daleModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Dale - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/dale.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Canada," Season 1</b></p>
+<ul>
+<li>Quickfire wins: 1</li>
+<li>Quickfire tops: 2</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: 1</li>
+<li>Episodes survived: 2</li>
+<li>LCK wins: 2</li>
+<li>Total points: 6</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END DALE**-->
+<!--**START SYLWIA**-->
+<tr>
+<td><a href="#sylwiaModal" data-bs-toggle="modal">Sylwia</a></td>
+<td></td>
+<td class="table-warning">Bottom</td>
+<td></td>
+<td></td>
+<td></td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="8">Out</td>
+</tr>
+<div class="modal fade" id="sylwiaModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Sylwia - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/sylwia.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Poland," Season 7</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: None</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: None</li>
+<li>Episodes survived: 4</li>
+<li>LCK wins: None</li>
+<li>Total points: 4</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END SYLWIA**-->
+<!--**START BEGONIA**-->
+<tr>
+<td><a href="#begoniaModal" data-bs-toggle="modal">Begonia</a></td>
+<td class="table-info">Top</td>
+<td></td>
+<td class="table-info">Top</td>
+<td class="table-warning">Bottom</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="9">Out</td>
+</tr>
+<div class="modal fade" id="begoniaModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Begonia - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/begonia.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Spain," Season 1</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: None</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: 1</li>
+<li>Episodes survived: 3</li>
+<li>LCK wins: 1</li>
+<li>Total points: 5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END BEGONIA**-->
+<!--**START LUCIANA**-->
+<tr>
+<td><a href="#lucianaModal" data-bs-toggle="modal">Luciana</a></td>
+<td></td>
+<td class="table-warning">Bottom</td>
+<td class="table-success">Won</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="10">Out</td>
+</tr>
+<div class="modal fade" id="lucianaModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Luciana - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/luciana.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef Brazil," Season 2</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: 1</li>
+<li>Elimination wins: 1</li>
+<li>Elimination tops: 1</li>
+<li>Episodes survived: 2</li>
+<li>LCK wins: 1</li>
+<li>Total points: 6.5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END LUCIANA**-->
+<!--**START MAY**-->
+<tr>
+<td><a href="#mayModal" data-bs-toggle="modal">May</a></td>
+<td></td>
+<td class="table-info">Top</td>
+<td class="table-active">Eliminated</td>
+<td class="table-active" colspan="11">Out</td>
+</tr>
+<div class="modal fade" id="mayModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-warning">May - LCK</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/may.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Finalist, "Top Chef Thailand," Season 1</b></p>
+<ul>
+<li>Quickfire wins: 1</li>
+<li>Quickfire tops: 1</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: 1</li>
+<li>Episodes survived: 1</li>
+<li>LCK wins: None</li>
+<li>Won LCK? False</li>
+<li>Total points: 3.5</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END MAY**-->
+<!--**START DAWN**-->
+<tr>
+<td><a href="#dawnModal" data-bs-toggle="modal">Dawn</a></td>
+<td class="table-warning">Bottom</td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="12">Out</td>
+</tr>
+<div class="modal fade" id="dawnModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Dawn - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/dawn.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Finalist, "Top Chef Portland," Season 18</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: None</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: None</li>
+<li>Episodes survived: None</li>
+<li>LCK wins: 1</li>
+<li>Total points: 1</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END DAWN**-->
+<!--**START SAMUEL **-->
+<tr>
+<td><a href="#samuelModal" data-bs-toggle="modal">Samuel</a></td>
+<td class="table-danger">Eliminated</td>
+<td class="table-active" colspan="13">Out</td>
+</tr>
+<div class="modal fade" id="samuelModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="text-danger">Samuel - Eliminated</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<div class="card mb-3">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="../../../images/s20/samuel.jpg" class="img-fluid rounded-start" alt="...">
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<p><b>Winner, "Top Chef France," Season 10</b></p>
+<ul>
+<li>Quickfire wins: None</li>
+<li>Quickfire tops: None</li>
+<li>Elimination wins: None</li>
+<li>Elimination tops: None</li>
+<li>Episodes survived: None</li>
+<li>LCK wins: None</li>
+<li>Total points: 0</li>
+</ul>
+<p><small class="text-muted">Player stats do not include the first episode.</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div><!--**END SAMUEL **-->
+</tbody>
+</table>
+<small><sup>*</sup> Episode one is not included in scoring or statistics.</small>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="panelsStayOpen-Stats-Header">
+<button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-Stats" aria-expanded="false" aria-controls="panelsStayOpen-Stats">
+Stats
+</button>
+</h2>
+<div id="panelsStayOpen-Stats" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-Stats-Header">
+<div class="accordion-body">
+<div class="container">
+<div class="row">
+<button class="btn btn-dark mb-2" type="button" data-bs-toggle="modal" data-bs-target="#contestantRankModal" aria-expanded="false" aria-controls="contestantRankModal">Contestant points</button>
+<div class="modal fade" id="contestantRankModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Current rankings</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<table class="table table-sm table-hover table-dark">
+<thead class="table table-borderless">
+<tr>
+<th class="text-white">Rank</th>
+<th class="text-white">Name</th>
+<th class="text-white">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Ali</td>
+<td>21</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Buddha</td>
+<td>19.5</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Amar</td>
+<td>19</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Tom</td>
+<td>14.5</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Gabriel</td>
+<td>13</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Nicole</td>
+<td>11.5</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sara</td>
+<td>11</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Victoire</td>
+<td>10.5</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Charbel</td>
+<td>8.5</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Luciana</td>
+<td>6.5</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Dale</td>
+<td>6</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Begonia</td>
+<td>5</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Sylwia</td>
+<td>4</td>
+</tr>
+<tr>
+<td>14</td>
+<td>May</td>
+<td>3.5</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Dawn</td>
+<td>1</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Samuel</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div></div>
+<div class="row">
+<button class="btn btn-dark mb-2" data-bs-toggle="modal" data-bs-target="#contestantQfModal">Quickfire stats</button>
+<div class="modal fade" id="contestantQfModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Quickfire stats</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<table class="table table-sm table-hover table-dark">
+<thead class="table table-borderless">
+<tr>
+<th class="text-white">Name</th>
+<th class="text-white">Wins</th>
+<th class="text-white">Tops</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ali</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Buddha</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Amar</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Tom</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Gabriel</td>
+<td>None</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Nicole</td>
+<td>None</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Sara</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Victoire</td>
+<td>None</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Charbel</td>
+<td>None</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Luciana</td>
+<td>None</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Dale</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Begonia</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Sylwia</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>May</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Dawn</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Samuel</td>
+<td>None</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div></div>
+<div class="row">
+<button class="btn btn-dark mb-2" data-bs-toggle="modal" data-bs-target="#contestantElimModal">Elimitation stats</button>
+<div class="modal fade" id="contestantElimModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Elimination stats</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body bg-dark">
+<table class="table table-sm table-hover table-dark">
+<thead class="table table-borderless">
+<tr>
+<th class="text-white">Name</th>
+<th class="text-white">Wins</th>
+<th class="text-white">Tops</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ali</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Buddha</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Amar</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Tom</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Gabriel</td>
+<td>None</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Nicole</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sara</td>
+<td>None</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Victoire</td>
+<td>None</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Charbel</td>
+<td>None</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Luciana</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Dale</td>
+<td>None</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Begonia</td>
+<td>None</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sylwia</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>May</td>
+<td>None</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Dawn</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Samuel</td>
+<td>None</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="spacer"></div>
+<script>
+</script>
+<nav class="navbar navbar-expand-sm" id="padds"></nav>
+<!--Javascript //-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+<script src="../js/bootstrap.min.js" type="text/Javascript">
+</script>
+</body>
+</html>
